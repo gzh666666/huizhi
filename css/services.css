@@ -1,0 +1,180 @@
+@charset "utf-8";
+body{
+    background-color: #eaedf2;
+}
+header{
+    background: url("../images/header.jpg") no-repeat 0px 0px;
+    height: 404px;
+    background-size: cover;
+}
+.head_top{
+    padding-top:40px;
+}
+.logo{
+    float: left;
+}
+.logo a{
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+}
+.logo a span{
+    color: #fed200;
+}
+.icon{
+    float: right;
+    color: #fed200;
+    margin-top: 10px;
+}
+.icon a i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.icon a i:hover{
+    opacity: 0.5;
+}
+.icon a i.one{
+    background-position: 0 0;
+    background: url("../images/img-sprite.png") no-repeat 0px 0px;
+    background-size: 400px;
+}
+.icon a i.two{
+    background: url("../images/img-sprite.png") no-repeat -40px 0px;
+    background-size: 400px;
+}
+.icon a i.three{
+    background: url("../images/img-sprite.png") no-repeat -80px 0px;
+    background-size: 400px;
+}
+.icon a i.four{
+    background-position: -120px 0;
+    background: url("../images/img-sprite.png") no-repeat -120px 0px;
+    background-size: 400px;
+}
+.nav{
+    width:754px;
+    margin-top: 100px;
+}
+.nav_ul li a{
+    float: left;
+    width: 145px;
+    height: 83px;
+    display: inline-block;
+    border-right: 1px solid #262e39;
+    background: #189cb4;
+    text-align: center;
+    line-height: 83px;
+    background: rgba(20, 185, 215, 0.83);
+    color: #fff;
+}
+.nav_ul>li:nth-of-type(5) a{
+    border-right:none;
+}
+.nav_ul>li:nth-of-type(3) a{
+    background: rgba(208,161,5,0.83);
+}
+.nav_ul li a:hover{
+    background: rgba(208,161,5,0.83);
+    transition: all 1s;
+}
+.service{
+    padding-top: 75px;
+}
+.service .g_bc h1{
+    font-size: 1.3rem;
+    color: #394c53;
+    font-weight: 400;
+    text-align: center;
+}
+.u_service{
+    width: 100%;
+    margin-top: 50px;
+}
+.u_service dl{
+    width: 25%;
+    float: left;
+}
+.u_service dt{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.u_service h3{
+    font-size:1.3rem;
+    color: #14bddd;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 400;
+}
+.u_service dd{
+    font-size:0.9em ;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.inter{
+    padding-top: 106px;
+    padding-bottom: 60px;
+}
+.inter .g_bc h2{
+    font-size: 2.3em;
+    color: #394c53;
+    font-weight: 400;
+    text-align: center;
+}
+.u_inter{
+    float: left;
+    width: 33.3%;
+    margin-top: 60px;
+}
+.u_inter dl{
+    width: 350px;
+}
+.u_inter dl span{
+    display: block;
+    width: 350px;
+    height: 50px;
+    background: #fed200;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 17px;
+}
+.u_inter dl h4{
+    color:#14b9d7;
+    font-size:1.4em;
+    margin: 23px 0 27px 0;
+    text-align: center;
+    font-weight: 400;
+}
+.u_inter dl dd{
+    width: 350px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+}
+footer{
+    /*padding: 58px;*/
+    background: #1d1d1d;
+}
+footer p{
+    line-height: 130px;
+    text-align: center;
+    color: #cfd0d1;
+    font-size: 10px;
+}
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    border: none;
+    text-indent: 100%;
+    background: url("../images/to-top2.png") no-repeat 0px 0px;
+}

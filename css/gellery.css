@@ -1,0 +1,166 @@
+@charset "utf-8";
+header{
+    background: url("../images/header.jpg") no-repeat 0px 0px;
+    height: 404px;
+    background-size: cover;
+}
+.head_top{
+    padding-top:40px;
+}
+.logo{
+    float: left;
+}
+.logo a{
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+}
+.logo a span{
+    color: #fed200;
+}
+.icon{
+    float: right;
+    color: #fed200;
+    margin-top: 10px;
+}
+.icon a i{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.icon a i:hover{
+    opacity: 0.5;
+}
+.icon a i.one{
+    background-position: 0 0;
+    background: url("../images/img-sprite.png") no-repeat 0px 0px;
+    background-size: 400px;
+}
+.icon a i.two{
+    background: url("../images/img-sprite.png") no-repeat -40px 0px;
+    background-size: 400px;
+}
+.icon a i.three{
+    background: url("../images/img-sprite.png") no-repeat -80px 0px;
+    background-size: 400px;
+}
+.icon a i.four{
+    background-position: -120px 0;
+    background: url("../images/img-sprite.png") no-repeat -120px 0px;
+    background-size: 400px;
+}
+.nav{
+    width:754px;
+    margin-top: 100px;
+}
+.nav_ul li a{
+    float: left;
+    width: 145px;
+    height: 83px;
+    display: inline-block;
+    border-right: 1px solid #262e39;
+    background: #189cb4;
+    text-align: center;
+    line-height: 83px;
+    background: rgba(20, 185, 215, 0.83);
+    color: #fff;
+}
+.nav_ul>li:nth-of-type(5) a{
+    border-right:none;
+}
+.nav_ul>li:nth-of-type(4) a{
+    background: rgba(208,161,5,0.83);
+}
+.nav_ul li a:hover{
+    background: rgba(208,161,5,0.83);
+    transition: all 1s;
+}
+
+.gallery{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.gallery .g_bc h1{
+    text-align: center;
+    font-size: 2.3em;
+    color: #394c53;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.u_pic{
+    width: 32%;
+    float: left;
+    margin: 7px;
+    position: relative;
+}
+.u_pic:hover .mask{
+    display: block;
+}
+.u_pic img{
+    width: 100%;
+}
+.mask{
+    width: 373px;
+    height: 280px;
+    background: rgba(226,180,44,0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    cursor: pointer;
+}
+.mask img{
+    width: 50px;
+    height: 50px;
+    margin: 110px auto;
+    display:block;
+}
+.mask:hover img{
+    transform: rotateY(360deg);
+    transition: all 1s;
+}
+footer{
+    background: #1d1d1d;
+}
+footer p{
+    line-height: 130px;
+    text-align: center;
+    color: #cfd0d1;
+    font-size: 10px;
+}
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    border: none;
+    text-indent: 100%;
+    background: url("../images/to-top2.png") no-repeat 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
